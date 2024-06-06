@@ -1,0 +1,384 @@
+
+.arriba{
+    height: 15%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.medio{
+    height: 70%;
+    background-color: grey;
+    margin: 5px;
+}
+.abajo{height: 40%;
+        background-color: rgb(55, 55, 56);
+}
+
+.izq{
+    height: 100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.der{
+    height: 100%;
+    background-color: rgb(14, 96, 178);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.experiencia{
+    color:#FFF;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-top: 100px;
+    text-shadow: 2px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.abajoo{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(55, 55, 56);
+}
+.almedio{
+    justify-content: space-around;
+    
+    border: 10px rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    color: #FFF;
+}
+li{
+    font-size: 30px;
+    font-style: oblique;
+    list-style: none;
+}
+.formacion{
+    background-color: rgb(55, 55, 56) ;
+    height: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacionacademicaletra{
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 2px black;
+    font-family: arial;
+    align-items: center;
+    justify-content: center;
+}
+.letra{
+    color: white;
+    font-style: oblique;
+   
+}
+
+.contacto{
+    height: 40%;
+    background-color: rgb(55, 55, 56) ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.imagenmedio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 305px;
+}
+
+
+.textosoybueno{
+    height: 100%;
+    background-color: white;
+    font-size: 30px;
+}
+.izqq{
+    height: 100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.derechaa{
+    height: 100%;
+    background-color: rgb(14, 96, 178);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;}
+
+
+.fotogaleria{
+    height: 30%;
+    background-color: black;
+}
+.medioo{
+    height: 40%;
+    background-color: #FFF;
+}
+.textolol{
+    font-size: 32px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    letter-spacing: 1px;
+    
+}
+.caja{
+    background-color: rgba(255, 192, 203, 0.223);
+  
+    height: 300px;
+    border: black solid 1px;
+    text-align: center;
+    margin: 2px;
+    justify-content: flex-start;
+}
+.grid-layout{
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 35% 15% 35% 15%;
+}
+.caja1{background-color:rgb(14, 96, 178);
+    font-size: 20px;
+    height: 300px;
+    border: black solid 1px;
+    text-align: center;
+    margin: 2px;
+    
+
+}
+.caja2{background-image: url('fotos/neeko.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border: black solid 1px;
+    text-align: center;
+    margin: 2px;
+    }
+.caja3{background-image: url('fotos/akalii.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border: black solid 1px;
+    text-align: center;
+    margin: 2px;
+}
+.caja4{background-repeat: no-repeat;
+   background-image: url('fotos/Ekko_loading_screen.webp');
+    background-size: cover;
+    height: 300px;
+    border: black solid 1px;
+    text-align: center;
+    margin: 2px;
+}
+.caja5{background-image: url('fotos/Yasuo_loading_screen.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border: black solid 1px;
+    text-align: center;
+    margin: 2px;
+}
+.caja6{background-image: url('fotos/yone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border: black solid 1px;
+    text-align: center;
+    margin: 2px;
+}
+.caja7{background-image: url(fotos/irelia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border: black solid 1px;
+    text-align: center;
+    margin: 2px;
+}
+.textopresentacion{
+    font-size: 39px;
+}
+@media (max-width:701px)
+{ /* CVLOL.HTML MEDIA QUERIES*/
+    .izqq{
+        width: 100%;
+        
+        
+    }
+    /*
+    .derechaa{
+        display: none;
+        visibility: hidden;
+        background-color: black;
+        
+    }*/
+    .derechaa{
+        display: none;
+    }
+    
+    .textolol{
+        font-size: 20px;
+        text-align: center;
+        color: black;
+    }
+   
+    .grid-layout{display: grid;
+        grid-template-columns: 100%;
+
+    }
+    .caja2{
+        display: none;
+        background-color: transparent;
+    }
+    .caja3{
+        display: none;
+        background-color: transparent;
+    }
+    .caja4{
+        display: none;
+        background-color: transparent;
+    }
+    .caja5{
+        display: none;
+        background-color: transparent;
+    }
+    .caja6{
+        display: none;
+        background-color: transparent;
+    }
+    .caja7{
+        display: none;
+        background-color: transparent;
+    }
+    .caja1{
+        width: 100%;
+        display:inline ;
+        font-size: 20px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* INDEX.HTML MEDIA QUERIES*/
+    .izq{
+        display: none;
+        background-color: transparent;
+    }
+    .der{
+        width: 100%;
+        
+    }
+    .textopresentacion{
+        font-size: 25px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .almedio{
+        font-size: 15px;
+        color: rgb(217, 229, 239);
+        height: 100%;
+    }
+    .formacion{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:0px)and (max-width:400px){
+    li{
+        font-size: 15px;
+    }
+    .formacionacademicaletra{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(220, 220, 220);
+        
+    }
+    .letra{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .formacion{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .textopresentacion{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:401px)and (max-width:700px){
+    li{
+        font-size: 20px;
+    }
+    .formacionacademicaletra{
+        font-size: 35px;
+        font-weight: bold;
+        color: rgb(220, 220, 220);
+        
+    }
+    .letra{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .formacion{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media only screen and (min-width:701px)and (max-width:900px){
+    /* CVLOL.HTML MEDIA QUERIES*/
+    .textolol{
+        font-size: 23px;
+        text-align: center;
+        color: black;
+    }
+    .grid-layout{display: grid;
+        grid-template-columns: 75% 25%;
+
+    }
+    /* index.HTML MEDIA QUERIES*/
+    .textopresentacion{font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;}
+    .formacion{
+        padding-top: 40px;
+    }
+    } 
+@media only screen and (min-width:900px)and (max-width:1279px)
+{   
+    .textopresentacion{
+        font-size: 32px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;}
+    .textolol{
+        font-size: 28px;
+        text-align: center;
+        color: black;
+    }
+    .caja1{
+        width: 100%;
+        display:inline ;
+        font-size: 17px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
